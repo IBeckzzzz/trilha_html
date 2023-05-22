@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+  </head>
+  <body>
+    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
+
+    <h2 id="inicio">Índice</h2>
+    <ul>
+      <li>
+        <a href="#historia_pc">História dos computadores</a>
+      </li>
+      <li>
+        <a href="#clients">O que são <i>Clients</i>?</a>
+      </li>
+      <li>
+        <a href="#servers">O que são <i>Servers</i>?</a>
+      </li>
+      <li>
+        <a href="#html">Como é uma estrutura básica de um HTML?</a>
+      </li>
+      <li>
+        <a href="#listas"
+          >Entendendo a diferença entre listas ordenadas e não ordenadas</a
+        >
+      </li>
+      <li><a href="#links">Links de referências</a></li>
+    </ul>
+
+    <h2 id="historia_pc">História dos computadores</h2>
+    <p>
+      A história dos computadores começa com dispositivos mecânicos, como o
+      ábaco, que foi usado no antigo Egito e Babilônia para realizar cálculos
+      simples. Outro exemplo importante é a Máquina de Anticítera, um
+      dispositivo grego antigo usado para prever posições astronômicas.
+      <br />
+      <br />
+      Durante a Segunda Guerra Mundial, os engenheiros norte-americanos J.
+      Presper Eckert e John Mauchly desenvolveram o ENIAC (Electronic Numerical
+      Integrator and Computer), que foi o primeiro computador eletrônico de
+      grande escala. O ENIAC foi usado para fins militares, como cálculos
+      balísticos. Posteriormente, a dupla também criou o UNIVAC (Universal
+      Automatic Computer), o primeiro computador comercialmente disponível.
+    </p>
+
+    <small><a href="#inicio">Voltar ao índice</a></small>
+
+    <h2 id="clients">O que são <i>Clients</i>?</h2>
+    <p>
+      Um cliente é um ponto final em uma arquitetura cliente-servidor, onde o
+      cliente envia solicitações ao servidor e recebe respostas. Os clientes
+      podem ser tanto hardware (como um computador, smartphone, tablet) quanto
+      software (como um navegador da web, cliente de email, aplicativo de
+      mensagens).
+      <br />
+      <br />
+      Os clientes são responsáveis por iniciar a comunicação com o servidor,
+      enviar solicitações específicas e processar as respostas recebidas. Eles
+      podem solicitar uma variedade de serviços, como acesso a um site, envio e
+      recebimento de emails, download de arquivos, reprodução de mídia em
+      streaming, entre outros.
+      <br />
+      <br />
+      Os clientes podem interagir com servidores em redes locais (como uma rede
+      doméstica) ou através da Internet, utilizando protocolos de comunicação
+      padronizados, como HTTP (Hypertext Transfer Protocol) para navegação na
+      web, SMTP (Simple Mail Transfer Protocol) para envio de emails, FTP (File
+      Transfer Protocol) para transferência de arquivos, entre outros.
+    </p>
+
+    <small><a href="#inicio">Voltar ao índice</a></small>
+
+    <h2 id="servers">O que são <i>Servers</i>?</h2>
+    <p>
+      Os servidores são componentes essenciais em arquiteturas cliente-servidor,
+      onde os clientes solicitam serviços e os servidores respondem a essas
+      solicitações. Os servidores têm capacidades superiores de processamento,
+      armazenamento e conectividade em comparação aos clientes, permitindo que
+      eles gerenciem e atendam a várias solicitações simultaneamente. Existem
+      diferentes tipos de servidores, cada um projetado para fornecer serviços
+      específicos.
+      <br /><br />
+      Aqui estão alguns exemplos comuns:
+    </p>
+    <ol>
+      <li>
+        <u>Servidores Web:</u> Esses servidores hospedam sites, páginas da web e
+        aplicativos da web. Eles respondem a solicitações HTTP de clientes e
+        fornecem o conteúdo solicitado, como textos, imagens, vídeos e arquivos.
+      </li>
+      <li>
+        <u>Servidores de Email:</u> Esses servidores são responsáveis pelo
+        envio, recebimento e armazenamento de emails. Eles gerenciam as caixas
+        de correio dos usuários, roteiam as mensagens para seus destinos
+        corretos e fornecem acesso aos clientes de email para que possam
+        recuperar seus emails.
+      </li>
+
+      <li>
+        <u>Servidores de Banco de Dados:</u> Esses servidores armazenam,
+        gerenciam e recuperam dados em um banco de dados. Eles oferecem serviços
+        de gerenciamento de dados, como criação, leitura, atualização e exclusão
+        de registros, para os clientes que precisam acessar informações do banco
+        de dados.
+      </li>
+      <li>
+        <u>Servidores de Arquivos:</u> Esses servidores são usados para
+        armazenar e compartilhar arquivos em uma rede. Eles fornecem acesso a
+        pastas e arquivos específicos para os clientes, permitindo que eles
+        compartilhem e acessem informações de forma centralizada.
+      </li>
+      <li>
+        <u>Servidores de Aplicativos:</u> Esses servidores hospedam e fornecem
+        acesso a aplicativos e serviços específicos, como servidores de jogos,
+        servidores de mensagens instantâneas ou servidores de colaboração
+        empresarial. Eles permitem que os clientes se conectem e usem esses
+        aplicativos de forma centralizada. Esses são apenas alguns exemplos de
+        servidores, e há muitos outros tipos especializados para diferentes
+        finalidades. Em resumo, os servidores são responsáveis por fornecer
+        serviços, recursos e dados aos clientes, permitindo a comunicação, o
+        armazenamento e o processamento de informações em uma rede de
+        computadores.
+      </li>
+    </ol>
+
+    <small><a href="#inicio">Voltar ao índice</a></small>
+
+    <h2 id="html">Como é uma estrutura básica de um HTML?</h2>
+    <p></p>
+    <p>
+      A estrutura básica de um documento HTML (HyperText Markup Language) é
+      composta por várias partes, incluindo a declaração do tipo de documento, a
+      tag HTML, a seção head e a seção body. Aqui está um exemplo de uma
+      estrutura básica de um documento HTML:
+    </p>
+    <div class="container-img">
+      <img src="imgs/Captura de tela 2023-05-19 144313.png" alt="" srcset="" />
+    </div>
+
+    <ol>
+      <li>
+        <p>
+          <u>!DOCTYPE html:</u> Esta é a declaração do tipo de documento
+          (DOCTYPE) e define a versão do HTML utilizada no documento. No exemplo
+          acima, é usada a versão HTML5.
+        </p>
+      </li>
+      <li>
+        <p>
+          <u>html:</u> Esta é a tag raiz do documento HTML. Todos os elementos
+          HTML devem estar contidos dentro desta tag.
+        </p>
+      </li>
+      <li>
+        <p>
+          <u>head:</u> Esta é a seção cabeçalho do documento. Ela contém
+          informações sobre o documento, como metadados, título da página e
+          referências a arquivos CSS ou JavaScript. Essas informações não são
+          exibidas diretamente na página, mas são usadas pelos navegadores e
+          mecanismos de pesquisa.
+        </p>
+      </li>
+      <li>
+        <p>
+          <u>meta charset="UTF-8":</u> Essa meta tag define o conjunto de
+          caracteres (charset) usado no documento. No exemplo acima, "UTF-8" é
+          usado para suportar uma ampla gama de caracteres.
+        </p>
+      </li>
+      <li>
+        <p>
+          <u>title:</u> Esta tag define o título da página, que é exibido na
+          barra de título da janela do navegador ou na guia da página.
+        </p>
+      </li>
+      <li>
+        <p>
+          <u>body:</u> Esta é a seção do corpo do documento. Ela contém todo o
+          conteúdo visível da página, como texto, imagens, links, vídeos,
+          tabelas, formulários e outros elementos HTML.
+        </p>
+      </li>
+    </ol>
+
+    <small><a href="#inicio">Voltar ao índice</a></small>
+
+    <h2 id="listas">
+      Entendendo a diferença entre listas ordenadas e não ordenadas
+    </h2>
+    <p>
+      As listas ordenadas e não ordenadas são dois tipos diferentes de listas
+      que podem ser criadas em HTML. A diferença principal entre elas está na
+      forma como os itens da lista são apresentados visualmente.
+    </p>
+    <ol>
+      <li>
+        <p>
+          <u>Listas Não Ordenadas (ul):</u> As listas não ordenadas são usadas
+          quando a ordem dos itens não é relevante. Os itens da lista são
+          marcados com pontos (geralmente círculos ou quadrados) para indicar
+          que são itens de uma lista. Em HTML, você pode criar uma lista não
+          ordenada usando a tag "ul" (unordered list) e cada item da lista é
+          definido com a tag "li" (list item). Veja um exemplo:
+        </p>
+
+        <div class="container-img">
+          <img src="imgs/exemplo_ul.png" alt="" />
+        </div>
+
+        <p>A saída visual seria algo como:</p>
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ul>
+      </li>
+
+      <li>
+        <p>
+          <u>Listas Ordenadas (ol):</u> As listas ordenadas são usadas quando a
+          ordem dos itens é importante. Os itens da lista são numerados
+          sequencialmente (1, 2, 3, ...) ou usando letras ou outros símbolos
+          para indicar a ordem. Em HTML, você pode criar uma lista ordenada
+          usando a tag "ol" (ordered list), e cada item da lista é definido com
+          a tag "li" (list item), assim como na lista não ordenada. Veja um
+          exemplo:
+        </p>
+      </li>
+
+      <div class="container-img">
+        <img src="imgs/exemplo_ol.png" alt="" />
+      </div>
+
+      <p>A saída visual seria algo como:</p>
+      <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ol>
+
+      <br />
+      <p>
+        Portanto, a principal diferença entre as listas ordenadas e não
+        ordenadas é a forma como os itens são apresentados visualmente. Nas
+        listas não ordenadas, os itens são marcados com pontos, enquanto nas
+        listas ordenadas, os itens são numerados ou marcados com outros símbolos
+        para indicar a ordem. A escolha entre os dois tipos de listas depende do
+        contexto e do significado da ordem dos itens na lista.
+      </p>
+    </ol>
+
+    <small><a href="#inicio">Voltar ao índice</a></small>
+
+    <h2 id="links">Links de referências</h2>
+
+    <ul>
+      <li>
+        <a
+          href="https://www.todamateria.com.br/historia-e-evolucao-dos-computadores/"
+          target="_blank"
+          >Historia dos computadores</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://www.cloudflare.com/pt-br/learning/serverless/glossary/client-side-vs-server-side/"
+          target="_blank"
+          >O que são Clients?</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://coodesh.com/blog/dicionario/o-que-e-um-servidor/"
+          target="_blank"
+          >O que são Servers?</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://tableless.github.io/iniciantes/manual/html/estruturabasica.html"
+          n
+          target="_blank"
+          >HTML para iniciantes</a
+        >
+      </li>
+      <li>
+        <a
+          href="http://www.nce.ufrj.br/ginape/cursohtml/conteudo/listas/ordenada.htm#:~:text=A%20principal%20diferença%20entre%20a,marcadores%20antes%20de%20cada%20elemento."
+          target="_blank"
+          >Listas ordenadas e não ordenadas</a
+        >
+      </li>
+    </ul>
+  </body>
+</html>
